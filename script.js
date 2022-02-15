@@ -7,7 +7,7 @@ addButton.addEventListener("click", addToDoItem);
 function addToDoItem() {
   var itemText = toDoEntryBox.value;
   newToDoItem(itemText, false);
-  toDoEntryBox.value = "";
+  toDoEntryBox.value = ""; /* Dejar en blanco el input */
 }
 
 var clearButton = document.getElementById("clear-completed-button");
